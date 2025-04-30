@@ -69,9 +69,14 @@ int main(){
     printf("PIB per capita: %d\n", pibpercapita1 > pibpercapita2);
     printf("Densidade Populacional: %d\n", densidadepopulacional1 < densidadepopulacional2);
     printf("Super Poder: %d\n", superpoder1 > superpoder2);
-
-
-
+    printf("\n");
+    
+    if (pib1 > pib2)  
+    {
+        printf("Pib de carta 1 venceu\n");
+    }   else{
+        printf("Pib de carta 2 venceu\n");
+    }
 
 
 
